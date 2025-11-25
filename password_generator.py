@@ -22,4 +22,4 @@ def generate_password():
 
 
 print("=== Password Generator ===")
-print("Your password is:", generate_password())
+print("Your secure password is:", generate_password())

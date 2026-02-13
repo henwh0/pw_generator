@@ -21,5 +21,5 @@ def generate_password():
     return password
 
 
-print("=== Password Generator ===")
+print("=== Password Generator ===\n")
 print("Your secure password is:", generate_password())

@@ -1,6 +1,9 @@
 import random
 import string
 
+class tcolors:
+    GREEN = '\033[92m'
+    NC = '/033[0m'
 
 def generate_password():
 
@@ -22,4 +25,5 @@ def generate_password():
 
 
 print("=== Password Generator ===\n")
-print("Your secure password is:", generate_password())
+print(f"Your secure password is: {tcolors.GREEN}{generate_password()}")
+print('\n')
